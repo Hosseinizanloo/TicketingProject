@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Tickets\Enum\" />
+    <Folder Include="Users\Enum\" />
+    <Folder Include="Users\Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Domin.Services\App.Domin.Services.csproj" />
+  </ItemGroup>
+
+</Project>
